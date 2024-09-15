@@ -1,0 +1,32 @@
+{% extends "./base.html.twig" %}
+
+{% block stylesheets %}
+    <style>
+        body {
+            margin: 20px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/assets/index.css">
+{% endblock %}
+
+{% block title %}{{ job.title | title }}{% endblock %}
+
+{% block body %}
+    <!--
+        Navigation
+    -->
+    {% include 'navigation/job.html.twig' %}
+
+    <!--
+        Job Detail
+    -->
+    <div
+        id="job-detail"
+        class="px-4 my-5"
+        data-logo="{{ logo }}"
+        data-job="{{ job | json_encode }}"
+    ></div>
+
+    <script type="text/javascript" src="/assets/index.js"></script>
+{% endblock %}

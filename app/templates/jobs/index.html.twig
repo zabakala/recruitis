@@ -1,0 +1,22 @@
+{% extends "./base.html.twig" %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="/assets/index.css">
+{% endblock %}
+
+{% block title %}Home - Jobs{% endblock %}
+
+{% block body %}
+    <!--
+        List of Jobs
+    -->
+    <div
+        id="jobs-list"
+        data-logo="{{ logo }}"
+        data-jobs="{{ paginator.items | json_encode }}"
+    ></div>
+
+    {% include './paginator.html.twig' %}
+
+    <script type="text/javascript" src="/assets/index.js"></script>
+{% endblock %}

@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`JobDetail > render nok state 1`] = `
+"<div data-v-f01334cc="" data-v-ac9c6cc7=""> Data not loaded. <a data-v-f01334cc="">Try again</a>. </div>
+<!--v-if-->"
+`;
+
+exports[`JobDetail > render ok state 1`] = `
+"<div data-v-ac9c6cc7="" class="text-center"><img data-v-ac9c6cc7="" class="d-block mx-auto mb-4" src="https://logo" alt="60" height="60">
+  <h1 data-v-ac9c6cc7="" class="display-5 fw-bold">job Title</h1>
+  <p data-v-ac9c6cc7="" class="mb-10" style="color: rgb(142, 180, 255);"><span data-v-ac9c6cc7="" class="text-dark">E-mail: </span>email</p>
+</div>
+<div data-v-ac9c6cc7="" class="col-lg-6 mx-auto job-body"><span data-v-ac9c6cc7="">abc</span>
+  <form data-v-004667d3="" data-v-ac9c6cc7="">
+    <div data-v-004667d3="" class="form-group"><label data-v-004667d3="" for="name">Full Name</label><input data-v-004667d3="" type="text" class="mb-3 form-control" id="name" required="" placeholder="Your full name" minlength="10" maxlength="50"></div>
+    <div data-v-004667d3="" class="form-group"><label data-v-004667d3="" for="email">Email address</label><input data-v-004667d3="" type="email" class="mb-3 form-control" id="email" required="" placeholder="Your e-mail address" minlength="5" maxlength="50"></div>
+    <div data-v-004667d3="" class="form-group"><label data-v-004667d3="" for="phone">Phone</label><input data-v-004667d3="" type="tel" class="mb-3 form-control" id="phone" placeholder="Your phone number" pattern="[+][0-9]{3}[1-9]{3}[0-9]{6}"></div>
+    <div data-v-004667d3="" class="form-group"><label data-v-004667d3="" for="linkedin">Linkedin</label><input data-v-004667d3="" type="text" class="mb-3 form-control" id="linkedin" required="" placeholder="Your Linkedin" minlength="5" maxlength="300" pattern="https://linkedin.com/in/.+"></div>
+    <div data-v-004667d3="" class="form-group"><label data-v-004667d3="" for="facebook">Facebook</label><input data-v-004667d3="" type="text" class="mb-3 form-control" id="facebook" placeholder="Your Facebook" minlength="20" maxlength="100" pattern="https://www.facebook.com/.+"></div>
+    <div data-v-004667d3="" class="form-group"><label data-v-004667d3="" for="twitter">Twitter</label><input data-v-004667d3="" type="text" class="mb-3 form-control" id="twitter" placeholder="Your Twitter" minlength="20" maxlength="100" pattern="https://twitter.com/.+"></div><input data-v-004667d3="" type="hidden" id="jobId" value="123"><button data-v-004667d3="" type="submit" class="btn btn-primary">Odpovědět na nabídku</button>
+    <!--v-if-->
+    <!--v-if-->
+  </form>
+</div>"
+`;
